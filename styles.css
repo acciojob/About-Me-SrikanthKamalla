@@ -1,1 +1,58 @@
 
+* {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background: #f4f4f4;
+      padding: 20px;
+    }
+    .container {
+      background: #fff;
+      display: flex;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .left {
+      width: 35%;
+      padding: 20px;
+      border-right: 1px solid #ddd;
+    }
+    .left img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .left h3 {
+      margin: 20px 0 10px;
+      font-size: 20px;
+    }
+    .right {
+      width: 65%;
+      padding: 20px;
+    }
+    .right h2 {
+      margin-bottom: 15px;
+      border-bottom: 2px solid #007bff;
+      display: inline-block;
+    }
+    .skill {
+      margin: 10px 0;
+    }
+    .skill i, .skill img {
+      margin-right: 8px;
+      vertical-align: middle;
+    }
+    .bar {
+      background: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      height: 10px;
+      margin-top: 5px;
+    }
+    .bar-fill {
+      height: 10px;
+      background: #007bff;
+    }
